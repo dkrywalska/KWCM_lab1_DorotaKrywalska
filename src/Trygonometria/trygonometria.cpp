@@ -1,9 +1,9 @@
 #include "trygonometria.h"
+#define _USE_MATH_DEFINES
 #include <cmath>
-#define USE_MATH_DEFINES
 
-
-double degreemath::sin(double degree){
+double degreemath::sin(double degree)
+{
 	double rad = M_PI/180;
 	return std::sin(rad*degree);
 }
